@@ -131,10 +131,10 @@ class CountDown extends React.Component {
         style={styles.timeCont}
         onPress={this.props.onPress}
       >
-        {_.includes(timeToShow, 'D') ? this.renderDoubleDigits('Days', newTime[0]) : null}
-        {_.includes(timeToShow, 'H') ? this.renderDoubleDigits('Hours', newTime[1]) : null}
-        {_.includes(timeToShow, 'M') ? this.renderDoubleDigits('Minutes', newTime[2]) : null}
-        {_.includes(timeToShow, 'S') ? this.renderDoubleDigits('Seconds', newTime[3]) : null}
+        {_.includes(timeToShow, 'D') ? this.renderDoubleDigits('Días', newTime[0]) : null}
+        {_.includes(timeToShow, 'H') ? this.renderDoubleDigits('Horas', newTime[1]) : null}
+        {_.includes(timeToShow, 'M') ? this.renderDoubleDigits('Minutos', newTime[2]) : null}
+        {_.includes(timeToShow, 'S') ? this.renderDoubleDigits('Segundos', newTime[3]) : null}
       </Component>
     );
   };
